@@ -3,7 +3,7 @@ This image now downloads phpBB 3.2 as part of the nginx build process and then c
 to run:
 
 ```bash
-git clone https://github.com/ZHoob2004/rusefi-docker
+git clone https://github.com/rusefi/rusefi-docker
 cd ruesfi-docker
 docker-compose build
 docker-compose up
@@ -13,3 +13,5 @@ open a browser to http://localhost/forum
 
 
 to fully clean up, remember to delete the volumes created by nginx and mysql
+
+TODO: how exactly do we delete volumes?
